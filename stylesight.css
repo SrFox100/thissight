@@ -21,9 +21,9 @@ body {
     100% {transform: translateX(10px) ;}
 }
 @keyframes sizing {
-    0% {transform: scaleX(0.0);}
-    50% {transform: scaleX(2);}
-    100% {transform: scaleX(0.0);}
+    0% {transform: scaleX(0.0) scaleY(1);}
+    50% {transform: scaleX(2) sclaseY(0);}
+    100% {transform: scaleX(0.0) scaleY(1);}
 }
 .flying {
     animation: floating 4s infinite ease-in-out;
